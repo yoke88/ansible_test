@@ -2,5 +2,6 @@
 - name: "test"
   hosts: all
   tasks:
-    - ping
+    - name: ping
+      ping
   
